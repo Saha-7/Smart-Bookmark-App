@@ -1,5 +1,3 @@
-Readme · MD
-Copy
 
 # 🔖 Smart Bookmark App
 
@@ -38,7 +36,7 @@ How I fixed it: I split the real-time listener into two separate ones — one fo
 Called fetchBookmarks() inside a useEffect before the function was defined below it. Fixed by moving the function above the useEffect and wrapping it in useCallback.`
 
 
-#### Problem 6:
+#### Problem 3:
 
 `Google OAuth redirecting to localhost after deploy
 After deploying to Vercel, signing in with Google redirected back to localhost:3000 instead of the live URL. Fixed by updating the Site URL and Redirect URLs in Supabase Authentication → URL Configuration, and adding the Vercel URL to Authorized JavaScript origins in Google Cloud Console.`
